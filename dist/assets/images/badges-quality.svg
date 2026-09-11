@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 70" width="460" height="70">
+  <!-- Badge 1: GMP -->
+  <g transform="translate(15, 5)">
+    <circle cx="30" cy="30" r="28" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <text x="30" y="26" font-family="'Roboto Condensed', sans-serif" font-size="14" font-weight="900" fill="#15803d" text-anchor="middle">GMP</text>
+    <text x="30" y="40" font-family="'Montserrat', sans-serif" font-size="7" font-weight="700" fill="#166534" text-anchor="middle">CERTIFIED</text>
+  </g>
+  <!-- Badge 2: MADE IN USA -->
+  <g transform="translate(130, 5)">
+    <circle cx="30" cy="30" r="28" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+    <text x="30" y="26" font-family="'Roboto Condensed', sans-serif" font-size="12" font-weight="900" fill="#1d4ed8" text-anchor="middle">MADE IN</text>
+    <text x="30" y="40" font-family="'Montserrat', sans-serif" font-size="11" font-weight="900" fill="#dc2626" text-anchor="middle">USA</text>
+  </g>
+  <!-- Badge 3: 100% NATURAL -->
+  <g transform="translate(245, 5)">
+    <circle cx="30" cy="30" r="28" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+    <text x="30" y="26" font-family="'Roboto Condensed', sans-serif" font-size="12" font-weight="900" fill="#a16207" text-anchor="middle">100%</text>
+    <text x="30" y="40" font-family="'Montserrat', sans-serif" font-size="8" font-weight="700" fill="#854d0e" text-anchor="middle">NATURAL</text>
+  </g>
+  <!-- Badge 4: NON-GMO -->
+  <g transform="translate(360, 5)">
+    <circle cx="30" cy="30" r="28" fill="#f0fdf4" stroke="#059669" stroke-width="2"/>
+    <text x="30" y="26" font-family="'Roboto Condensed', sans-serif" font-size="12" font-weight="900" fill="#047857" text-anchor="middle">NON</text>
+    <text x="30" y="40" font-family="'Montserrat', sans-serif" font-size="10" font-weight="800" fill="#065f46" text-anchor="middle">GMO</text>
+  </g>
+</svg>
