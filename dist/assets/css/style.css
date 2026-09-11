@@ -1221,10 +1221,10 @@ button {
 }
 
 .faq-answer {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
+  display: none;
 }
+
+.faq-item.active .faq-answer { display: block; }
 
 .faq-answer-inner {
   padding: 0 20px 20px;
