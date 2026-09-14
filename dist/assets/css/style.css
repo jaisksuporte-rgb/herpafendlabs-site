@@ -1455,4 +1455,24 @@ body { background: #fff; color: #252525; font-family: Arial, Helvetica, sans-ser
   .hero-subtitle { font-size: 1.25rem; margin-bottom: 28px; }
   .hook-card { padding: 24px; }
   .hook-card::before, .hook-card::after { display: none; }
+
+  /* Keep the first mobile screen immediate; defer rendering long off-screen sections. */
+  .pricing-section,
+  .protocol-section,
+  .bonuses-section,
+  .guarantee-section,
+  .faq-section,
+  .site-footer {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 900px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: .01ms !important;
+      animation-iteration-count: 1 !important;
+      scroll-behavior: auto !important;
+      transition-duration: .01ms !important;
+    }
+  }
 }
